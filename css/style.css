@@ -1,0 +1,276 @@
+/* =================================
+                Header
+==================================== */
+
+/* * {
+  outline: 1px solid green;
+} */
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+  background-color: #fc5296;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+.border-nav{
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+.top-nav-collapse {
+  background-color: #FB3353;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #FB3353;
+  }
+
+  .benefit_small{
+    text-align: center;
+  }
+
+  .btn-rahmet{
+    margin: 10px;
+  }
+
+
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #FB3353;
+  }
+}
+
+.navbar{
+  box-shadow: none;
+}
+
+.mobile{
+  width: 95%;
+  margin-left: 5em;
+}
+
+.logotype{
+  width: 100%;
+}
+
+a .mobile_cards{
+  display: inline-block;
+  width: 40%;
+  margin-top: 3em;
+  margin-left: 1em;
+}
+
+.dividers{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* =================================
+                Button Up
+==================================== */
+.btn-up{
+  margin: 10px;
+  border-radius: 100px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show-button{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fa-chevron-up {
+  color: #FFFFFF;
+}
+
+.purple-color{
+  background: linear-gradient(315deg, #fc5296 0%, #f67062 74%) !important;
+}
+
+.purple-color:hover{
+  background: linear-gradient(315deg, #d19592 0%, #c81f70 74%) !important;
+}
+
+/* =================================
+            Video Section
+==================================== */
+
+.title{
+  font-size: 2.5em;
+  margin: 1.1em;
+  margin-top: 2em;
+}
+
+.video_section{
+  margin-bottom: 8em;
+}
+
+.setting{
+  color: #FB3353;
+  font-size: 1em;
+}
+
+/* =================================
+              Benefits
+==================================== */
+
+.benefits{
+  height: 105%;
+}
+
+#benefits{
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+}
+
+.mockup_phone{
+  width: 120%;
+  margin-top: -120px;
+  margin-left: -50px;
+}
+
+.image_phone{
+  margin-right: 0;
+}
+
+.inline_type{
+  display: inline;
+}
+
+.btn-rahmet{
+  background-color: #FB3353;
+  color: #FFFFFF;
+}
+
+.text_benefit{
+  font-size: 2.6em;
+  margin-bottom: 1em;
+}
+
+.blue-grey-text{
+  font-size: 1.1em;
+}
+
+.sms_rassylka{
+  font-size: 1.2em;
+  margin-top: 3em;
+  font-weight: 300;
+}
+
+/* =================================
+              Feedback
+==================================== */
+#feedback{
+  margin-bottom: 7em;
+}
+
+.card-header{
+  background-color: #fc5296;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+.card-title{
+  color: #FFFFFF;
+  font-weight: 400;
+  margin: auto;
+}
+
+.card{
+  height: 100%;
+  transition: transform .9s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, .22), 0 25px 55px 0 rgba(0, 0, 0, .21) !important;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, .22), 0 25px 55px 0 rgba(0, 0, 0, .21) !important
+}
+
+/* =================================
+              Parallax
+==================================== */
+
+.parallax-window {
+  min-height: 500px;
+  background: transparent;
+}
+
+.parallax_try h1{
+  text-align: center;
+  font-size: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.parallax_try p{
+  text-align: center;
+  font-size: 1.3em;
+  color: #FFFFFF;
+}
+
+.parallax_try{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hr-divide{
+  color: white;
+  width: 50%;
+}
+
+#parallax_image{
+  margin-bottom: 6em;
+}
+
+.button-outline-white{
+  border: 2px solid #fff !important;
+  background-color: transparent !important;
+  color: #fff !important;
+  transition-property: background, color;
+  transition-duration: .5s, .5s;
+}
+
+.button-outline-white:hover{
+  border: 2px solid #fff !important;
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+/* =================================
+              Partners
+==================================== */
+
+.button-carousel{
+  color: #FB3353;
+}
+
+.link-address{
+  font-size: 0.8em;
+}
+
+.partners-logo img{
+  transition: border .3s;
+}
+
+.partners-logo img:hover{
+  border: 1px solid #FB3353;
+}
