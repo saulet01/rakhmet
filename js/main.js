@@ -1,3 +1,4 @@
+$('#simpleModal').modal('toggle')
 let button1 = $('.btn-up');
 
 $(window).scroll(function() {
